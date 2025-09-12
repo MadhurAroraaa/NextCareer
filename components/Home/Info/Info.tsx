@@ -16,7 +16,7 @@ const Info = () => {
             <div className='w-[80%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center'>
                 {/* IMAGE CONTENT */}
                 <div>
-                    <Image src="/images/about.png" alt='Hello Ji' width={900}
+                    <Image src="/images/a.png" alt='Hello Ji' width={900}
                         height={900}
                         className="w-[900px] h-[900px] object-contain" />
                 </div>
