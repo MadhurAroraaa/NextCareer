@@ -6,8 +6,8 @@ import clsx from "clsx";
 import { Epilogue } from "next/font/google";
 
 const epilogue = Epilogue({
-  subsets: ["latin"],
-  weight: ["400", "700"], // choose weights
+    subsets: ["latin"],
+    weight: ["400", "700"], // choose weights
 });
 
 const STAGGER = 0.035;
@@ -51,22 +51,14 @@ const HeroPage: React.FC = () => {
 
                 {/* Multi-line description */}
                 <div className="flex flex-col space-y-2 sm:space-y-3 md:space-y-4 max-w-3xl">
-                    <TextRoll
-                        className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-white tracking-tight"
-                        
-                    >
-                        NextCareer helps students and professionals discover jobs,
-                    </TextRoll>
-                    <TextRoll
-                        className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-white tracking-tight"
-                        
-                    >
-                        internships, and resources to grow their careers.
-                    </TextRoll>
+                    <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-white capitalize pb-3 ">
+                        NextCareer helps students and professionals discover jobs,internships, and resources to grow their careers.
+                    </p>
+
                 </div>
             </div>
         </motion.div>
-        
+
     );
 };
 
@@ -148,7 +140,7 @@ const TextRoll: React.FC<TextRollProps> = ({
                     );
                 }
             })}
-            
+
         </motion.span>
     );
 };
