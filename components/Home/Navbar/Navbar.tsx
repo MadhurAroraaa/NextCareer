@@ -52,8 +52,8 @@ const Navbar = ({openNav}:Props) => {
                 </div>
                 {/* BUTTONS */}
                 <div className='flex items-center space-x-4 '>
-                    <button className='px-6 py-2.5 text-base md:text-lg rounded-lg cursor-pointer bg-gray-800  transition-all duration-3 00  hover:opacity-65 font-medium hover:shadow-sm shadow-[#00AEEF]'>Login / Register</button>
-                    <button className='px-6 py-2.5 text-base sm:text-sm md:text-lg rounded-lg cursor-pointer bg-[#00AEEF] transition-all duration-300  hover:opacity-65 hidden sm:block font-medium hover:shadow-sm shadow-gray-200'>Jobs Post</button>
+                    <button className='px-5 py-2.5 text-sm md:text-lg rounded-lg cursor-pointer bg-gray-800  transition-all duration-3 00  hover:opacity-65 font-medium hover:shadow-sm shadow-[#00AEEF]'>Login / Register</button>
+                    <button className='px-5 py-2.5 text-sm sm:text-sm md:text-lg rounded-lg cursor-pointer bg-[#00AEEF] transition-all duration-300  hover:opacity-65 hidden sm:block font-medium hover:shadow-sm shadow-gray-200'>Jobs Post</button>
                     <HiBars3BottomRight className='w-10 h-10 cursor-pointer text-white lg:hidden ' onClick={openNav}/>
 
 

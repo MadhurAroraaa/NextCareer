@@ -24,7 +24,7 @@ const responsive = {
 const ReviewData = [
     {
         id: 1,
-        image: "/images/u1.png",
+        image: "/Images/u1.png",
         name: "Shiva",
         post: "Innocent Man",
         reviewshort: "Sexyyyyyy",
@@ -34,7 +34,7 @@ const ReviewData = [
 
     {
         id: 2,
-        image: "/images/u2.png",
+        image: "/Images/u2.png",
         name: "Ram",
         post: "Disciplined Man",
         reviewshort: "Aati Sundar",
@@ -43,7 +43,7 @@ const ReviewData = [
     },
     {
         id: 3,
-        image: "/images/u3.png",
+        image: "/Images/u3.png",
         name: "Hanuman",
         post: "Powerful Man",
         reviewshort: "Proud Of You",

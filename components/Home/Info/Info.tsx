@@ -14,7 +14,7 @@ const Info = () => {
     return (
         <div className='pt-16 pb-16'>
             <div className='w-[80%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center '>
-                <div>
+                <div className='mx-auto hidden md:block'>
                     <Image src="/Images/about.png"
                         alt="Image"
                         width={1000}
