@@ -51,7 +51,7 @@ const HeroPage: React.FC = () => {
 
                 {/* Multi-line description */}
                 <div className="flex flex-col space-y-2 sm:space-y-3 md:space-y-4 max-w-3xl">
-                    <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-white capitalize pb-3 ">
+                    <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-white capitalize">
                         NextCareer helps students and professionals discover jobs,internships, and resources to grow their careers.
                     </p>
 
