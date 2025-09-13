@@ -53,13 +53,13 @@ const HeroPage: React.FC = () => {
                 <div className="flex flex-col space-y-2 sm:space-y-3 md:space-y-4 max-w-3xl">
                     <TextRoll
                         className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-white tracking-tight"
-                        animateIn={animationSequence === "textIn"}
+                        
                     >
                         NextCareer helps students and professionals discover jobs,
                     </TextRoll>
                     <TextRoll
                         className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-white tracking-tight"
-                        animateIn={animationSequence === "textIn"}
+                        
                     >
                         internships, and resources to grow their careers.
                     </TextRoll>
