@@ -26,7 +26,7 @@ const responsive = {
 const CompanyData = [
     {
         id:1,
-        image:"/images/c1.png",
+        image:"/Images/c1.png",
         name:"Udemy",
         location:"Delhi, India",
         position:20,
@@ -34,21 +34,21 @@ const CompanyData = [
 
         {
         id:2,
-        image:"/images/c2.png",
+        image:"/Images/c2.png",
         name:"Stripe",
         location:"Jagadhri, India",
         position:30,
     },
         {
         id:3,
-        image:"/images/c3.png",
+        image:"/Images/c3.png",
         name:"DropBox",
         location:"Faridabad, India",
         position:33,
     },
         {
         id:4,
-        image:"/images/c4.png",
+        image:"/Images/c4.png",
         name:"Figma",
         location:"Ludhiana, India",
         position:40,

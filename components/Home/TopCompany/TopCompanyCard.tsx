@@ -13,7 +13,7 @@ type Props = {
 const TopCompanyCard = ({ data }: Props) => {
     return (
         <div className='border-[1.5px] border-gray-700 p-6 rounded-lg relative hover:scale-105 bg-gradient-to-b from-slate-900 via-gray-950 to-slate-900 m-3' >
-            <img src={data.image} alt={data.name} width={80} height={80} className='object-cover mx-auto'/>
+            <img src={data.image} alt={data.name} width={80} height={80} className='object-cover mx-auto w-[80px] h-[80px]'/>
             <h1 className='ext-lg font-medium mt-4 text-center text-gray-200'>{data.name}</h1>
             <div className='text-sm text-gray-400 flex items-center-safe space-x-1 text-center justify-center mt-3'>
                 <GrLocation/>

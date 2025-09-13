@@ -7,7 +7,7 @@ import JobCard from "./JobCard";
 const jobs = [
     {
         id: 1,
-        image: "/images/j1.png",
+        image: "/Images/j1.png",
         title: "Software Engineer",
         location: "Mumbai, India",
         jobType: "Full Time",
@@ -15,7 +15,7 @@ const jobs = [
     },
     {
         id: 2,
-        image: "/images/j2.png",
+        image: "/Images/j2.png",
         title: "Recruting Coordinator",
         location: "Gurgram, India",
         jobType: "Part Time",
@@ -23,7 +23,7 @@ const jobs = [
     },
     {
         id: 3,
-        image: "/images/j3.png",
+        image: "/Images/j3.png",
         title: "Product Manager, Studio",
         location: "Banglore, India",
         jobType: "Contract",
@@ -31,7 +31,7 @@ const jobs = [
     },
     {
         id: 4,
-        image: "/images/j4.png",
+        image: "/Images/j4.png",
         title: "Senior Product Designer",
         location: "Delhi, India",
         jobType: "Full Time",
@@ -39,7 +39,7 @@ const jobs = [
     },
     {
         id: 5,
-        image: "/images/j5.png",
+        image: "/Images/j5.png",
         title: "Product Manager, Risk",
         location: "Pune, India",
         jobType: "Contract",
@@ -47,7 +47,7 @@ const jobs = [
     },
     {
         id: 6,
-        image: "/images/j6.png",
+        image: "/Images/j6.png",
         title: "Technical Architect",
         location: "Ludhiana, India",
         jobType: "Full Time",
@@ -55,7 +55,7 @@ const jobs = [
     },
     {
         id: 7,
-        image: "/images/j7.png",
+        image: "/Images/j7.png",
         title: "Web Developer",
         location: "Noida, India",
         jobType: "Full Time",
@@ -63,7 +63,7 @@ const jobs = [
     },
     {
         id: 8,
-        image: "/images/j8.png",
+        image: "/Images/j8.png",
         title: "Senior Product Designer",
         location: "Chandigarh, India",
         jobType: "Full Time",
@@ -71,7 +71,7 @@ const jobs = [
     },
     {
         id: 9,
-        image: "/images/j9.png",
+        image: "/Images/j9.png",
         title: "Senior BI Analyst",
         location: "Hyderabad, India",
         jobType: "Full Time",
